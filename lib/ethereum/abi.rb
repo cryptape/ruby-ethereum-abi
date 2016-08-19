@@ -1,6 +1,6 @@
 require 'ethereum/abi/contract_translator'
 require 'ethereum/abi/type'
-require 'ethereum/constant'
+require 'ethereum/abi/constant'
 require 'ethereum/exceptions'
 require 'block_logger'
 require 'rlp'

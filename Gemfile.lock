@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ruby-ethereum (0.0.1)
+    ethereum-abi (0.0.1)
       block_logger (~> 0.1.2)
       ethereum-base (~> 0.1.4)
       rlp (~> 0.7.3)
@@ -29,9 +29,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ethereum-abi!
   minitest (= 5.8.3)
   rake (~> 10.5)
-  ruby-ethereum!
   yard (= 0.8.7.6)
 
 BUNDLED WITH

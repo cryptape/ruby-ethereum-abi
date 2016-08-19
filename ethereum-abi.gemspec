@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ethereum/abi/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ruby-ethereum"
+  s.name        = "ethereum-abi"
   s.version     = Ethereum::ABI::VERSION
   s.authors     = ["Zhang.Ya.Ning"]
   s.email       = ["zhangyaning1985@gmail.com"]

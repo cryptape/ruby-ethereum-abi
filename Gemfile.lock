@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    ruby-ethereum (0.0.1)
+      block_logger (~> 0.1.2)
+      ethereum-base (~> 0.1.4)
+      rlp (~> 0.7.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    block_logger (0.1.2)
+      logging (~> 2.0)
+    digest-sha3 (1.1.0)
+    ethereum-base (0.1.4)
+      digest-sha3 (~> 1.1)
+      rlp (~> 0.6)
+    little-plugger (1.1.4)
+    logging (2.1.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
+    minitest (5.8.3)
+    multi_json (1.12.1)
+    rake (10.5.0)
+    rlp (0.7.3)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (= 5.8.3)
+  rake (~> 10.5)
+  ruby-ethereum!
+  yard (= 0.8.7.6)
+
+BUNDLED WITH
+   1.12.5

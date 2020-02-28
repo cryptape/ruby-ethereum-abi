@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency('block_logger', '~> 0.1.2')
   s.add_dependency('rlp', '~> 0.7.3')
 
-  s.add_development_dependency('rake', '~> 10.5')
+  s.add_development_dependency('rake', '~> 13.0')
   s.add_development_dependency('minitest', '5.8.3')
   s.add_development_dependency('yard', '0.8.7.6')
 end
